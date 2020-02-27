@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
-import './extra/styles/education.css';
+import './education.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 

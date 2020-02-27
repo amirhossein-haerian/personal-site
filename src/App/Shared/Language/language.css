@@ -4,7 +4,7 @@
 			rgb(85, 88, 218, .75) 0%,
 			rgba(95, 209, 249, .75) 100.2%
 		),
-		url('../../image/pattern.jpg');
+		url('../../../Static/img/pattern.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -33,7 +33,7 @@
 }
 .persian {
 	position: relative;
-	background: url('../../image/persian.jpg');
+	background: url('../../../Static/img/persian.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -52,7 +52,7 @@
 }
 .english {
 	position: relative;
-	background: url('../../image/english.jpg');
+	background: url('../../../Static/img/english.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;

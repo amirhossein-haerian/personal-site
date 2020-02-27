@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
-import './extra/styles/header.css';
+import './header.css';
 import { HamburgerButton } from 'react-hamburger-button';
-import { Link, DirectLink, Element, Events, animateScroll, scrollSpy, scroller } from 'react-scroll';
+import { Link, Events, scroller } from 'react-scroll';
 
 class Header extends Component {
 	constructor(props) {
@@ -87,7 +86,7 @@ class Header extends Component {
 				<nav className="web-menu-container">
 					<div className="web-menu-item">
 						<a href="#">
-							<img className="web-menu-logo" src={require('./image/Logo.png')} />
+							<img className="web-menu-logo" src={require('../../../Static/img/Logo.png')} />
 						</a>
 					</div>
 					{this.props.items.map((item, index) => {

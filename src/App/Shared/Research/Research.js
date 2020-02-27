@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
-import './extra/styles/research.css';
+import './research.css';
 import { FaLink } from 'react-icons/fa';
 import 'animate.css/animate.min.css';
 import ScrollAnimation from 'react-animate-on-scroll';

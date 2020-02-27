@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
-import './extra/styles/contact.css';
+import './contact.css';
 import emailjs from 'emailjs-com';
 import {
 	FaInstagram,
@@ -9,7 +8,6 @@ import {
 	FaGithub,
 	FaMobileAlt,
 	FaRegEnvelope,
-	FaEnvelope
 } from 'react-icons/fa';
 import ScrollAnimation from 'react-animate-on-scroll';
 

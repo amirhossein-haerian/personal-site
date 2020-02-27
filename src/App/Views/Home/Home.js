@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { Link, Element , animateScroll as scroll} from 'react-scroll';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { FaChevronUp } from 'react-icons/fa';
 
-import './App.css';
-import Header from './Header';
-import AboutMe from './AboutMe';
-import Education from './Education';
-import Skills from './Skills';
-import Langue from './Language';
-import Course from './Course';
-import Research from './Research';
-import Contact from './Contact';
-import Footer from './Footer';
+import './home.css';
+import Header from '../../Shared/Header/Header';
+import AboutMe from '../../Shared/AboutMe/AboutMe';
+import Education from '../../Shared/Education/Education';
+import Skills from '../../Shared/Skills/Skills';
+import Langue from '../../Shared/Language/Language';
+import Course from '../../Shared/Course/Course';
+import Research from '../../Shared/Research/Research';
+import Contact from '../../Shared/Contact/Contact';
+import Footer from '../../Shared/Footer/Footer';
 
 class App extends Component {
 	constructor(props) {
@@ -84,7 +84,7 @@ class App extends Component {
 					>
 						<div className="col-lg-6">
 							<div className="main-top-image-container">
-								<img className="main-top-image" src={require('./image/programmer2.svg')} />
+								<img className="main-top-image" src={require('../../../Static/img/programmer2.svg')} alt='programmer' />
 							</div>
 						</div>
 						<div className="col-lg-6">

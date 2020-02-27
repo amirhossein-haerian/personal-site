@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
-import './extra/styles/aboutme.css';
+import '../AboutMe/aboutme.css';
 import { FaQuoteRight } from 'react-icons/fa';
 import { FaQuoteLeft } from 'react-icons/fa';
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -54,7 +53,7 @@ class AboutMe extends Component {
 				<ScrollAnimation animateOnce={true} animateIn="bounceInRight" className='aboutme-bottom'>
 					<div className="row row-fix d-flex justify-content-center align-items-center">
 						<div className="col-lg-2">
-							<img className="my-3 img-fluid aboutme-image" src={require('./image/personal.jpg')} />
+							<img className="my-3 img-fluid aboutme-image" src={require('../../../Static/img/personal.jpg')} />
 						</div>
 						<div className="col-lg-10">
 							<div className="my-3 important-description-text-container">

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
-import './extra/styles/skills.css';
+import './skills.css';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import { Collapse } from 'react-collapse';

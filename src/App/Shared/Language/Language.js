@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
-import './extra/styles/language.css';
+import './language.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 class Language extends Component {

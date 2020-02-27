@@ -1,7 +1,7 @@
 @font-face {
 	font-family: "vazir";
-	src: url("./extra/Font/Vazir-FD.eot") format("eot"), url("./extra/Font/Vazir-FD.woff") format("woff"),
-		url("./extra/Font/Vazir-FD.ttf") format("truetype"); /* Saf35, Chrome4+, FF3.5, Opera 10+ */
+	src: url("../font/Vazir-FD.eot") format("eot"), url("../font/Vazir-FD.woff") format("woff"),
+		url("../font/Vazir-FD.ttf") format("truetype"); /* Saf35, Chrome4+, FF3.5, Opera 10+ */
 }
 * {
 	direction: rtl;

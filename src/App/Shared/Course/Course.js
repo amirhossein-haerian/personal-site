@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
-import './extra/styles/course.css';
+import './course.css';
 import { IoMdCheckmarkCircleOutline } from 'react-icons/io';
 import ScrollAnimation from 'react-animate-on-scroll';
 
