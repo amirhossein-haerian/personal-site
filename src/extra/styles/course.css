@@ -1,0 +1,34 @@
+.course-main-container {
+	background-color: #f2f2f2;
+}
+.course-title {
+	text-align: center;
+	color: #67647e;
+	font-weight: bold;
+	margin-bottom: 35px;
+}
+.course-container {
+	width: 80%;
+	margin: 0px auto;
+	line-height: 2.2rem;
+}
+.course-detail {
+	position: relative;
+	display: block;
+	margin: 10px auto;
+	padding: 15px;
+	color: #67647e;
+	font-size: 18px;
+	text-align: justify;
+	border-radius: 50px;
+}
+.check-icon {
+	position: absolute;
+	top: 17px;
+	right: -30px;
+	font-size: 30px;
+}
+.course-container a:hover {
+	color: #794646 !important;
+	text-decoration: none !important;
+}

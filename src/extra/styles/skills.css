@@ -1,0 +1,74 @@
+.skills-main-container {
+	position: relative;
+}
+.skills-title {
+	text-align: center;
+	color: #67647e;
+	font-weight: bold;
+	margin-bottom: 35px;
+}
+.skills-container {
+	width: 80%;
+	margin: 0px auto;
+}
+.Skills-box {
+	background-color: #69a8ed;
+	padding: 20px;
+	border-radius: 15px;
+	-webkit-box-shadow: 0px 3px 7.5px -3px rgba(31, 30, 31, 1);
+	-moz-box-shadow: 0px 3px 7.5px -3px rgba(31, 30, 31, 1);
+	box-shadow: 0px 3px 7.5px -3px rgba(31, 30, 31, 1);
+	-webkit-transition: all 0.2s 0s ease-out;
+	-moz-transition: all 0.2s 0s ease-out;
+	-o-transition: all 0.2s 0s ease-out;
+	transition: all 0.2s 0s ease-out;
+}
+.Skills-box:hover {
+	-webkit-box-shadow: 0px 3px 10.5px -3px rgba(31, 30, 31, 1);
+	-moz-box-shadow: 0px 3px 10.5px -3px rgba(31, 30, 31, 1);
+	box-shadow: 0px 3px 10.5px -3px rgba(31, 30, 31, 1);
+	transform: translateY(-5px);
+}
+.Skills-box p {
+	color: #fefefe;
+	font-weight: bold;
+	font-size: 13.5px;
+}
+.circle-ptogress {
+	width: 90px;
+}
+.more-container {
+	margin: 35px auto;
+}
+.more-container a {
+	cursor: pointer;
+	background-color: #67647e;
+	padding: 10px 20px;
+	color: #fefefe !important;
+	border-radius: 50px;
+	-webkit-box-shadow: 0px 3px 10.5px -3px rgba(31, 30, 31, 1);
+	-moz-box-shadow: 0px 3px 10.5px -3px rgba(31, 30, 31, 1);
+	box-shadow: 0px 3px 10.5px -3px rgba(31, 30, 31, 1);
+	-webkit-transition: all 0.2s 0s ease-out;
+	-moz-transition: all 0.2s 0s ease-out;
+	-o-transition: all 0.2s 0s ease-out;
+	transition: all 0.2s 0s ease-out;
+}
+.more-container a:hover {
+	cursor: pointer;
+	background-color: #434157;
+	-webkit-box-shadow: 0px 3px 15.5px -3px rgba(31, 30, 31, 1);
+	-moz-box-shadow: 0px 3px 15.5px -3px rgba(31, 30, 31, 1);
+	box-shadow: 0px 3px 15.5px -3px rgba(31, 30, 31, 1);
+}
+.ReactCollapse--collapse {
+	transition: height 500ms;
+}
+
+@media only screen and (max-width: 1066px) and (min-width: 992px) {
+	.Skills-box p {
+		color: #fefefe;
+		font-weight: bold;
+		font-size: 13px;
+	}
+}

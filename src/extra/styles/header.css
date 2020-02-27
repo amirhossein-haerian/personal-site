@@ -1,0 +1,117 @@
+.menu-body {
+	z-index: 105;
+	background-color: transparent;
+}
+.web-menu-container {
+	display: flex;
+	align-items: center;
+	background-color: transparent;
+	margin-right: 30px;
+}
+.web-menu-item {
+	padding: 5px;
+	margin: 10px 5px;
+	background-color: transparent;
+	float: right;
+}
+.web-menu-logo {
+	width: 80px;
+	height: 80px;
+}
+.mobile-menu-container {
+	display: none;
+	position: fixed;
+}
+.menu-section {
+	position: absolute;
+	z-index: 50;
+	width: 100%;
+	height: 60px;
+}
+.hamburgur-button {
+	cursor: pointer;
+	display: none;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	margin-bottom: 20px;
+	z-index: 20;
+	background-color: #67647e;
+	padding: 15px;
+	border-radius: 50px;
+	-webkit-box-shadow: 0px 3px 8px -3px rgba(31,30,31,1);
+	-moz-box-shadow: 0px 3px 8px -3px rgba(31,30,31,1);
+	box-shadow: 0px 3px 8px -3px rgba(31,30,31,1);
+	-webkit-transition: all 0.6s 0s ease-out;
+	-moz-transition: all 0.6s 0s ease-out;
+	-o-transition: all 0.6s 0s ease-out;
+	transition: all 0.6s 0s ease-out;
+}
+.mobile-menu-items {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
+}
+.mobile-menu-item {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0px;
+	font-size: 20px;
+}
+
+.web-menu-item a,
+.mobile-menu-item a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #f2f2f2 !important;
+	-webkit-transition: all 0.3s 0s ease-out;
+	-moz-transition: all 0.3s 0s ease-out;
+	-o-transition: all 0.3 0s ease-out;
+	transition: all 0.3s 0s ease-out;
+	cursor: pointer;
+}
+.web-menu-item a:hover,
+.mobile-menu-item a:hover {
+	text-decoration: none;
+	display: inline-block;
+	color: #67647e !important;
+}
+
+.web-menu-item a:focus,
+.mobile-menu-item a:focus {
+	outline: 0px;
+	border: 0px;
+
+}
+@media only screen and (max-width: 900px) {
+	.hamburgur-button {
+		display: block;
+	}
+	.web-menu-container {
+		display: none;
+	}
+	.mobile-menu-container {
+		overflow-y: auto;
+		position: fixed;
+		display: block;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		z-index: 10;
+		background-image: radial-gradient(
+			circle farthest-corner at 12.3% 19.3%,
+			rgb(85, 88, 218, 1) 0%,
+			rgba(95, 209, 249, 1) 100.2%
+		);
+		opacity: .7;
+		transform: translateX(100%);
+		-webkit-transition: all 0.6s 0s ease-out;
+		-moz-transition: all 0.6s 0s ease-out;
+		-o-transition: all 0.6s 0s ease-out;
+		transition: all 0.6s 0s ease-out;
+	}
+}
