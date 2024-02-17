@@ -17,30 +17,30 @@ class AboutMe extends Component {
         <ScrollAnimation animateOnce={true} animateIn="bounceInRight" className="description-text-container">
           <FaQuoteLeft className="left-quote" />
           <FaQuoteRight className="right-quote" />
-          <p className="description-text">My name is Amir, I was born in 1997, I raised in Tehran and currently based in Stockholm.</p>
+          <p className="description-text">My name is Amir, I was born in 1997, I was raised in Tehran and currently based in Stockholm.</p>
           <p className="description-text">
-            Watching movies is my main interest and I spend most of my free time watching movies. I am also adventurous and like traveling and gaining new experiences, and if the
+            Watching movies is my main interest; I spend most of my free time watching them. I am also adventurous and like traveling and gaining new experiences, and if the
             conditions are right, I will definitely go on a trip.
           </p>
           <p className="description-text">
-            I call my self a geek and I hold a bachelor’s degree in Information Technology Engineering (IT) from Azad University of Tehran and I also finishing a master program in
-            computer and systems sciences from Stockholm university, my interest in this field goes back to my school days, when I participated in computer familiarization classes
+            I call myself a geek, and I hold a bachelor's degree in Information Technology Engineering (IT) from Azad University of Tehran. I am also finishing a master's program
+            in computer and systems sciences from Stockholm University; my interest in this field goes back to my school days when I participated in computer familiarization
+            classes.
           </p>
           <p className="description-text">
-            The four-year bachelor's period was a period with different and very useful experiences for me. I didn't have much experience in programming before my bachelor, and it
-            can be said that I learned the programming logic with C and Java with university topics, but gradually my interest and Also, my enthusiasm for learning increased and I
-            tried to challenge myself by doing projects of different lessons, even sometimes I did the projects of others, in somepoint some of my friends and I decided to work and
-            practice as a team. That experience was a very valuable experience. It was in this team work that I started learning Front-End development and this was the beginning of
-            my journey!
+            I have had different and beneficial experiences during the four-year bachelor's period. I only had a little experience in programming before my bachelor's. I learned
+            programming logic with C and Java with university topics. Still, gradually, my interest and enthusiasm for learning increased. I tried challenging myself by doing
+            projects for different lessons; I even did projects for others only to gain experience. Some of my friends and I decided to work and practice as a team. That experience
+            was precious. In this teamwork, I started learning Front-End development; this was the beginning of my journey!
           </p>
           <p className="description-text">
-            The reason I chose to become a Front-End Developer was because I feel that I have the ability and talent in it, and also when I work with a site or application, its
-            convenience and beauty are very important to me, and I believe that as a Front-End developer If you can't do your job properly, the efforts can't be seen in the
-            back-end, that's why I would like to increase my abilities in this matter everyday, which is a concern for me.
+            I chose to become a Front-End Developer because I feel I have the ability and talent for it. Also, when I work with a site or application, its convenience and beauty
+            are very important to me. I believe that as a Front-End developer If you can't do your job properly, the efforts can't be seen in the back end; that's why I would like
+            to increase my abilities in this matter every day, which is a concern for me.
           </p>
           <p className="description-text">
-            I have experienced an internship, a bootcamp and 1.5 years of being a full time front-end developer at one of the high-profile companies and I see myself confident that
-            I can handle different situations and challenges.
+            I have experienced an internship, a boot camp, and 1.5 years of being a full-time front-end developer at a high-profile company. I am confident that I can handle
+            different situations and challenges.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateOnce={true} animateIn="bounceInRight" className="aboutme-bottom">
@@ -51,7 +51,8 @@ class AboutMe extends Component {
             <div className="col-lg-10">
               <div className="my-3 important-description-text-container">
                 <p className="description-text">
-                  « I believe that it does not matter how much experience you have  as a Front-End developer, you have to learn and keep your information up-to-date, because the use of modern (novel) technologies make differences »
+                  « I believe that it does not matter how much experience you have as a Front-End developer, you have to learn and keep your information up-to-date, because the use
+                  of modern (novel) technologies make differences »
                 </p>
               </div>
             </div>

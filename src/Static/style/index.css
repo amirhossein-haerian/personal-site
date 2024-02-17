@@ -8,9 +8,14 @@
 	font-family: "Caveat";
 	src: url("../font/Caveat/Caveat-VariableFont_wght.ttf") format("truetype");
 }
+
+@font-face {
+	font-family: "Nunito";
+	src: url("../font/Nunito/Nunito-Regular.ttf") format("truetype");
+}
 * {
 	direction: ltr;
-	font-family: Caveat;
+	font-family: Nunito;
 	text-align: left;
 }
 html {

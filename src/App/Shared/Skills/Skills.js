@@ -61,6 +61,10 @@ class Skills extends Component {
 				value: 80
 			},
 			{
+				name: 'Styled Components',
+				value: 80
+			},
+			{
 				name: 'TypeScript',
 				value: 70
 			},
@@ -75,6 +79,34 @@ class Skills extends Component {
 			{
 				name: 'nodeJS',
 				value: 70
+			},
+			{
+				name: 'HeadLess CMS',
+				value: 70
+			},
+			{
+				name: 'Machine Learning Algorithms',
+				value: 70
+			},
+			{
+				name: 'Deep Learning',
+				value: 70
+			},
+			{
+				name: 'Python ML Libraries',
+				value: 70
+			},
+			{
+				name: 'MongoDB',
+				value: 65
+			},
+			{
+				name: 'Unit Test(Jest)',
+				value: 65
+			},
+			{
+				name: 'E2E test(Cypress)',
+				value: 65
 			},
 			{
 				name: 'WordPress',

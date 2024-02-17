@@ -23,16 +23,54 @@ class Research extends Component {
             d="M0,192L30,186.7C60,181,120,171,180,144C240,117,300,75,360,74.7C420,75,480,117,540,122.7C600,128,660,96,720,101.3C780,107,840,149,900,138.7C960,128,1020,64,1080,85.3C1140,107,1200,213,1260,224C1320,235,1380,149,1410,106.7L1440,64L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"
           />
         </svg>
-        <h2 className="research-title">Researches</h2>
+        <h2 className="research-title">Projects</h2>
         <div className="research-container">
+          <ScrollAnimation animateOnce={true} offset={50} animateIn="bounceInLeft" className="article-container">
+            <div className="article-container-title">ML</div>
+            <h4>Title</h4>
+            ​ Heart Attack Prediction System
+            <hr />
+            <h4>Description</h4>
+            in this project I implement an ML prediction model, ReactJS as frontend and Flask library in python as backend.
+            <hr />
+            <h4>year</h4>
+            2024
+            <span className="article-link">
+              <a href="https://github.com/amirhossein-haerian/HAPS">
+                <FaLink /> Link
+              </a>
+            </span>
+          </ScrollAnimation>
+          <br />
+          <br />
+          <br />
           <ScrollAnimation animateOnce={true} offset={50} animateIn="bounceInRight" className="article-container">
+            <div className="article-container-title">NodeJS</div>
+            <h4>Title</h4>
+            ​ Weather API
+            <hr />
+            <h4>Description</h4>
+            Express (Node.js) has been used for the implementation of this API.
+            <hr />
+            <h4>year</h4>
+            2022
+            <span className="article-link">
+              <a href="https://github.com/amirhossein-haerian/weatherAppByNode">
+                <FaLink /> Link
+              </a>
+            </span>
+          </ScrollAnimation>
+          <br />
+          <br />
+          <br />
+          <ScrollAnimation animateOnce={true} offset={50} animateIn="bounceInLeft" className="article-container">
             <div className="article-container-title">Paper</div>
             <h4>Title</h4>
             ​ Investigating factors affecting customer loyalty in C2C model e-commerce
             <hr />
             <h4>Conference</h4>
             The third national conference of knowledge and technology of electrical, computer and mechanical engineering of Iran
-			<hr />
+            <hr />
             <h4>year</h4>
             2019
             <span className="article-link">

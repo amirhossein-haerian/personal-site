@@ -66,6 +66,7 @@
 	direction: ltr;
 	font-size: 20px;
 	font-weight: bold;
+	font-family: Caveat;
 }
 
 @media only screen and (max-width: 992px) {
