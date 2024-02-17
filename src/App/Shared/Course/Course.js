@@ -23,7 +23,7 @@ class Course extends Component {
           </ScrollAnimation>
           <ScrollAnimation animateOnce={true} offset={50} animateIn="bounceInRight" className="course-detail">
             In order to gain experience, I participated in ReactJS/React Native bootcamp of Rasa and learned a lot of things for about three months with the good team of this
-            bootcamp, which I have posted the address of their website <a href="https://trs.college/"> here </a>.
+            bootcamp.
             <IoMdCheckmarkCircleOutline className="check-icon" />
           </ScrollAnimation>
           <ScrollAnimation animateOnce={true} offset={50} animateIn="bounceInRight" className="course-detail">
