@@ -67,13 +67,13 @@ class App extends Component {
 					</a>
 					<Header
 						items={[
-							'درباره من',
-							'سوابق تحصیلی',
-							'مهارت ها',
-							'زبان',
-							'دوره ها',
-							'تحقیقات',
-							'ارتباط با من'
+							'About me',
+							'Education & Experience',
+							'Skills',
+							'Languages',
+							'Courses',
+							'Researchs',
+							'Contact'
 						]}
 					/>
 					<ScrollAnimation
@@ -89,8 +89,8 @@ class App extends Component {
 						</div>
 						<div className="col-lg-6">
 							<div className="main-top-title-container">
-								<p className="main-top-title">امیرحسین حائریان هستم!</p>
-								<p className="main-top-subtitle">یک توسعه دهنده وب و موبایل (Front-End Developer)</p>
+								<p className="main-top-title">I am Amir</p>
+								<p className="main-top-subtitle">A Web and Mobile Developer(Front-End Developer)</p>
 							</div>
 						</div>
 					</ScrollAnimation>

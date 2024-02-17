@@ -18,14 +18,14 @@
 	margin: 10px auto;
 	padding: 15px;
 	color: #67647e;
-	font-size: 18px;
+	font-size: 20px;
 	text-align: justify;
 	border-radius: 50px;
 }
 .check-icon {
 	position: absolute;
 	top: 17px;
-	right: -30px;
+	left: -30px;
 	font-size: 30px;
 }
 .course-container a:hover {

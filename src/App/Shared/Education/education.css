@@ -28,9 +28,9 @@
 .education-section-title p {
 	background-color: #67647e;
 	display: inline-block;
-	padding: 35px 30px;
+	padding: 50px 30px;
 	margin: 0px auto;
-	border-radius: 100px;
+	border-radius: 50%;
 	font-weight: bold;
 	color: #f2f2f2;
 	border: 3px solid #f2f2f2;
@@ -45,7 +45,7 @@
 .education-section-title1 p {
 	background-color: #67647e;
 	display: inline-block;
-	padding: 35px 18px;
+	padding: 50px 38px;
 	margin: 0px auto;
 	border-radius: 100px;
 	font-weight: bold;

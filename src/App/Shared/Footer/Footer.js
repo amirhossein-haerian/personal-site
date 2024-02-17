@@ -15,7 +15,7 @@ class Footer extends Component {
 					/>
 				</svg>
 				<ScrollAnimation offset={50} animateIn="bunceInLeft">
-					<p>طراحی و توسعه توسط امیرحسین حائریان</p>
+					<p> © Amir Haerian - 2024 </p>
 				</ScrollAnimation>
 			</div>
 		);

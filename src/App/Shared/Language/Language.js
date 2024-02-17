@@ -7,7 +7,7 @@ class Language extends Component {
 		super(props);
 		this.state = {
 			isOpen: false,
-			moreText: 'مشاهده بیشتر'
+			moreText: 'look more'
 		};
 	}
 
@@ -21,7 +21,7 @@ class Language extends Component {
 						d="M0,96L30,85.3C60,75,120,53,180,64C240,75,300,117,360,112C420,107,480,53,540,58.7C600,64,660,128,720,144C780,160,840,128,900,138.7C960,149,1020,203,1080,197.3C1140,192,1200,128,1260,101.3C1320,75,1380,85,1410,90.7L1440,96L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"
 					/>
 				</svg>
-				<h2 className="languege-title">زبان</h2>
+				<h2 className="languege-title">Languages</h2>
 				<div className="language-container">
 					<div className="row row-fix">
 						<div className="my-2 col-lg-6">
@@ -32,7 +32,7 @@ class Language extends Component {
 								className="language-box persian"
 							>
 								<div className="light-box">
-									<p>زبان مادری</p>
+									<p>Mother Tongue</p>
 								</div>
 							</ScrollAnimation>
 						</div>
@@ -44,7 +44,7 @@ class Language extends Component {
 								className="language-box english"
 							>
 								<div className="light-box">
-									<p>در حال یادگیری ، سطح فعلی Intermediate</p>
+									<p>Adavnced - holding a 6.5 IELTS</p>
 								</div>
 							</ScrollAnimation>
 						</div>

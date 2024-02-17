@@ -3,10 +3,15 @@
 	src: url("../font/Vazir-FD.eot") format("eot"), url("../font/Vazir-FD.woff") format("woff"),
 		url("../font/Vazir-FD.ttf") format("truetype"); /* Saf35, Chrome4+, FF3.5, Opera 10+ */
 }
+
+@font-face {
+	font-family: "Caveat";
+	src: url("../font/Caveat/Caveat-VariableFont_wght.ttf") format("truetype");
+}
 * {
-	direction: rtl;
-	font-family: Vazir;
-	text-align: right;
+	direction: ltr;
+	font-family: Caveat;
+	text-align: left;
 }
 html {
 	background-color: #f2f2f2;

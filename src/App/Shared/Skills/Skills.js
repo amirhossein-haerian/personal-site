@@ -10,7 +10,7 @@ class Skills extends Component {
 		super(props);
 		this.state = {
 			isOpen: false,
-			moreText: 'مشاهده بیشتر'
+			moreText: 'look more'
 		};
 	}
 
@@ -18,54 +18,62 @@ class Skills extends Component {
 		const mySkills = [
 			{
 				name: 'javascript',
-				value: 85
+				value: 90
 			},
 			{
 				name: 'es6/7/8',
-				value: 75
+				value: 90
 			},
 			{
-				name: 'java SE',
-				value: 50
+				name: 'python',
+				value: 90
 			},
 			{
 				name: 'HTML5',
-				value: 85
+				value: 90
 			},
 			{
 				name: 'CSS3',
-				value: 85
+				value: 90
 			},
 			{
-				name: 'BootStrap',
-				value: 85
-			},
-			{
-				name: 'ReactJS',
-				value: 70
-			},
-			{
-				name: 'React Native',
-				value: 70
-			},
-			{
-				name: 'Redux',
-				value: 65
+				name: 'Tailwind',
+				value: 90
 			},
 			{
 				name: 'React Hook',
-				value: 70
+				value: 90
 			},
 			{
 				name: 'Rest API',
-				value: 85
+				value: 90
 			},
 			{
 				name: 'git',
-				value: 65
+				value: 90
+			},
+			{
+				name: 'ReactJS',
+				value: 90
+			},
+			{
+				name: 'Redux',
+				value: 80
+			},
+			{
+				name: 'TypeScript',
+				value: 70
+			},
+			{
+				name: 'Agile (SCRUM)',
+				value: 70
 			},
 			{
 				name: 'SQL',
+				value: 70
+			},
+			{
+				name: 'nodeJS',
 				value: 70
 			},
 			{
@@ -79,11 +87,19 @@ class Skills extends Component {
 			{
 				name: 'ICDL',
 				value: 65
-			}
+			},
+			{
+				name: 'java SE',
+				value: 65
+			},
+			{
+				name: 'React Native',
+				value: 65
+			},
 		];
 		return (
 			<div className="skills-main-container">
-				<h2 className="skills-title">مهارت های من</h2>
+				<h2 className="skills-title">My Skills</h2>
 				<ScrollAnimation animateOnce={true}  offset={50}  animateIn="bounceInRight" className="skills-container">
 					<div className="row row-fix">
 						{mySkills.map((item, index) => {
@@ -150,12 +166,12 @@ class Skills extends Component {
 									if (!this.state.isOpen) {
 										this.setState({
 											isOpen: true,
-											moreText: 'کم تر ببینید'
+											moreText: 'Look less'
 										});
 									} else {
 										this.setState({
 											isOpen: false,
-											moreText: 'بیشتر تر ببینید'
+											moreText: 'Look More'
 										});
 									}
 								}}

@@ -28,11 +28,13 @@
 	color: #f2f2f2f1;
 	font-weight: bold;
 	font-size: 50px;
+	text-align: center;
 }
 
 .main-top-subtitle {
 	color: #444053c9;
 	font-weight: bold;
+	text-align: center;
 }
 .wave {
 	position: absolute;
@@ -46,7 +48,7 @@
 	margin: 0px !important;
 }
 .row-reverse {
-	direction: ltr;
+	direction: rtl;
 }
 .aboutme-main-container {
 	position: relative;
