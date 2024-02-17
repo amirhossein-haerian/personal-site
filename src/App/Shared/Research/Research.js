@@ -26,7 +26,7 @@ class Research extends Component {
         <h2 className="research-title">Projects</h2>
         <div className="research-container">
           <ScrollAnimation animateOnce={true} offset={50} animateIn="bounceInLeft" className="article-container">
-            <div className="article-container-title">ML</div>
+            <div className="article-container-title" style={{left: "calc(50% - 65px)"}}>ML</div>
             <h4>Title</h4>
             ​ Heart Attack Prediction System
             <hr />
@@ -45,7 +45,7 @@ class Research extends Component {
           <br />
           <br />
           <ScrollAnimation animateOnce={true} offset={50} animateIn="bounceInRight" className="article-container">
-            <div className="article-container-title">NodeJS</div>
+            <div className="article-container-title" style={{left: "calc(50% - 80px)"}}>NodeJS</div>
             <h4>Title</h4>
             ​ Weather API
             <hr />
@@ -80,7 +80,7 @@ class Research extends Component {
             </span>
           </ScrollAnimation>
           <ScrollAnimation animateOnce={true} offset={50} animateIn="bounceInRight" className="another-article-container article-container">
-            <div className="another-article-container-title">Master Thesis</div>
+            <div className="another-article-container-title" style={{left: "calc(50% - 80px)"}}>Master Thesis</div>
             <h4>Title</h4>
             Development of a python toolkit for finding cancer related modules
             <hr />
