@@ -81,7 +81,7 @@
 
 @media only screen and (max-width: 500px) {
 	.main-top-container {
-		height: 110vh;
+		height: 100vh;
 	}
 }
 
@@ -186,9 +186,9 @@
 	}
 }
 @media only screen and (max-width: 1125px) {
-	/* .scroll-section{
+	.scroll-section{
 		display: none;
-	} */
+	}
 }
 
 .goTop {
