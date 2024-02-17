@@ -64,7 +64,7 @@ class Research extends Component {
           <br />
           <br />
           <ScrollAnimation animateOnce={true} offset={50} animateIn="bounceInLeft" className="article-container">
-            <div className="article-container-title">Paper</div>
+            <div className="article-container-title" style={{left: "calc(50% - 70px)"}}>Paper</div>
             <h4>Title</h4>
             ​ Investigating factors affecting customer loyalty in C2C model e-commerce
             <hr />
@@ -80,7 +80,7 @@ class Research extends Component {
             </span>
           </ScrollAnimation>
           <ScrollAnimation animateOnce={true} offset={50} animateIn="bounceInRight" className="another-article-container article-container">
-            <div className="another-article-container-title" style={{left: "calc(50% - 80px)"}}>Master Thesis</div>
+            <div className="another-article-container-title" style={{left: "calc(50% - 85px)"}}>Master Thesis</div>
             <h4>Title</h4>
             Development of a python toolkit for finding cancer related modules
             <hr />

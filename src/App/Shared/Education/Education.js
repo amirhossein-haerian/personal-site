@@ -42,7 +42,7 @@ class Education extends Component {
             <div className="col-md-2" />
             <div className="my-2 col-md-4">
               <div className="education-section-title1">
-                <p>Master</p>
+                <p style={{padding: "55px 38px"}}>Master</p>
               </div>
             </div>
             <div className="my-2 col-md-4">
