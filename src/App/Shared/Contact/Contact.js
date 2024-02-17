@@ -116,7 +116,7 @@ class Contact extends Component {
               </a>
             </ScrollAnimation>
             <ScrollAnimation animateOnce={true} offset={50} animateIn="bounceInRight">
-              <p className="contact-icons-text my-3">Or use my email od phone number to contact me:</p>
+              <p className="contact-icons-text my-3">Or use my email or phone number to contact me:</p>
               <p className="phone-mail">
                 <FaRegEnvelope className="phone-mail-icon" /> haerian.amirhossein@gmail.com
               </p>
