@@ -90,7 +90,7 @@ class App extends Component {
 						<div className="col-lg-6">
 							<div className="main-top-title-container">
 								<p className="main-top-title">I am Amir</p>
-								<p className="main-top-subtitle">A Web and Mobile Developer(Front-End Developer)</p>
+								<p className="main-top-subtitle">A Software Developer</p>
 							</div>
 						</div>
 					</ScrollAnimation>

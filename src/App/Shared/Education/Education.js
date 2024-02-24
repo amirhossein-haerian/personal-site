@@ -42,7 +42,7 @@ class Education extends Component {
             <div className="col-md-2" />
             <div className="my-2 col-md-4">
               <div className="education-section-title1">
-                <p style={{padding: "55px 38px"}}>Master</p>
+                <p style={{ padding: "55px 38px" }}>Master</p>
               </div>
             </div>
             <div className="my-2 col-md-4">
@@ -59,6 +59,24 @@ class Education extends Component {
         <br />
         <h2 className="education-title">Experience</h2>
         <div className="edication-container">
+          <ScrollAnimation animateOnce={true} offset={50} animateIn="bounceInRight" className="row row-fix d-flex justify-content-center align-items-center row-reverse">
+            <div className="col-md-2" />
+            <div className="my-2 col-md-4">
+              <div className="education-section-title1">
+                <p style={{ padding: "50px 40px" }}>part-time</p>
+              </div>
+            </div>
+            <div className="my-2 col-md-4">
+              <div className="education-section-detail">
+                <p>SU, Systemvetardagen</p>
+                <hr />
+                <p>Web Developer</p>
+                <hr />
+                <p>6 months</p>
+              </div>
+            </div>
+            <div className="col-md-2" />
+          </ScrollAnimation>
           <ScrollAnimation animateOnce={true} offset={50} animateIn="bounceInRight" className="row row-fix d-flex justify-content-center align-items-center">
             <div className="col-md-2" />
             <div className="my-2 col-md-4">
@@ -70,7 +88,7 @@ class Education extends Component {
               <div className="education-section-detail">
                 <p>Tehran - Fanap</p>
                 <hr />
-                <p>Front-End Developer in mobile application team</p>
+                <p>Software Developer</p>
                 <hr />
                 <p>1.5 years</p>
               </div>
@@ -81,14 +99,14 @@ class Education extends Component {
             <div className="col-md-2" />
             <div className="my-2 col-md-4">
               <div className="education-section-title1">
-                <p style={{padding: "50px 40px"}}>Intern</p>
+                <p style={{ padding: "50px 40px" }}>Intern</p>
               </div>
             </div>
             <div className="my-2 col-md-4">
               <div className="education-section-detail">
                 <p>Tehran - WikiNiki</p>
                 <hr />
-                <p>Front-End Developer</p>
+                <p>Web Developer</p>
                 <hr />
                 <p>6 months</p>
               </div>
