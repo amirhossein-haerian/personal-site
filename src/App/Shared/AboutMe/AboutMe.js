@@ -31,15 +31,14 @@ class AboutMe extends Component {
             I have had different and beneficial experiences during the four-year bachelor's period. I only had a little experience in programming before my bachelor's. I learned
             programming logic with C and Java with university topics. Still, gradually, my interest and enthusiasm for learning increased. I tried challenging myself by doing
             projects for different lessons; I even did projects for others only to gain experience. Some of my friends and I decided to work and practice as a team. That experience
-            was precious. In this teamwork, I started learning Front-End development; this was the beginning of my journey!
+            was precious and this was the beginning of my journey!
           </p>
           <p className="description-text">
-            I chose to become a Front-End Developer because I feel I have the ability and talent for it. Also, when I work with a site or application, its convenience and beauty
-            are very important to me. I believe that as a Front-End developer If you can't do your job properly, the efforts can't be seen in the back end; that's why I would like
-            to increase my abilities in this matter every day, which is a concern for me.
+            I chose to become a Software Developer because I feel I have the ability and talent for it. Also, when I work with a website or application, its convenience
+            is very important to me. I believe that as a developer you must be able to not only deliver codes but also admirable products.
           </p>
           <p className="description-text">
-            I have experienced an internship, a boot camp, and 1.5 years of being a full-time front-end developer at a high-profile company. I am confident that I can handle
+            I have experienced an internship, a boot camp, and 1.5 years of being a full-time software developer at a high-profile company. I am confident that I can handle
             different situations and challenges.
           </p>
         </ScrollAnimation>
@@ -51,7 +50,7 @@ class AboutMe extends Component {
             <div className="col-lg-10">
               <div className="my-3 important-description-text-container">
                 <p className="description-text">
-                  « I believe that it does not matter how much experience you have as a Front-End developer, you have to learn and keep your information up-to-date, because the use
+                  « I believe that it does not matter how much experience you have as a developer, you have to learn and keep your information up-to-date, because the use
                   of modern (novel) technologies make differences »
                 </p>
               </div>
