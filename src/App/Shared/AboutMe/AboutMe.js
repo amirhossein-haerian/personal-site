@@ -38,7 +38,7 @@ class AboutMe extends Component {
             is very important to me. I believe that as a developer you must be able to not only deliver codes but also admirable products.
           </p>
           <p className="description-text">
-            I have experienced an internship, a boot camp, and 2.5 years of being a full-time software developer at a high-profile company. I am confident that I can handle
+            I have experienced an internship, a boot camp, and 1.5 years of being a full-time software developer at a high-profile company. I am confident that I can handle
             different situations and challenges.
           </p>
         </ScrollAnimation>

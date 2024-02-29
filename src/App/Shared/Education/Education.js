@@ -90,7 +90,7 @@ class Education extends Component {
                 <hr />
                 <p>Software Developer</p>
                 <hr />
-                <p>2.5 years</p>
+                <p>1.5 years</p>
               </div>
             </div>
             <div className="col-md-2" />
